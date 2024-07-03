@@ -1,0 +1,62 @@
+[
+    {
+        "image": "./assets/img1.jpg",
+        "title": "Frozen Field",
+        "artist": "Anthony Da Cruz",
+        "description": "A snowy sunset in the Alps.",
+        "camera": "NIKON D5500",
+        "lens": "50",
+        "fstop": "8",
+        "iso": "640",
+        "shutter": "80",
+        "link": "https://unsplash.com/photos/landscape-1c33ba-uh_8"
+    },
+    {
+        "image": "./assets/img2.jpg",
+        "title": "Brooklyn Bridge",
+        "artist": "Miltiadis Fragkidis",
+        "description": "The Brooklyn Bridge photographed in the Dumbo district.",
+        "camera": "Canon EOS 600D",
+        "lens": "24",
+        "fstop": "4",
+        "iso": "100",
+        "shutter": "160",
+        "link": "https://unsplash.com/photos/brooklyn-bridge-puwdjzA1-AQ"
+    },
+    {
+        "image": "./assets/img3.jpg",
+        "title": "Monstera Tree",
+        "artist": "Bernd Dittrich",
+        "description": "A big monstera tree photographed from below.",
+        "camera": "Canon EOS 6D Mark II",
+        "lens": "179",
+        "fstop": "5.6",
+        "iso": "400",
+        "shutter": "1250",
+        "link": "https://unsplash.com/photos/the-leaves-of-a-tree-with-a-sky-in-the-background-lQNEEmlkFAw"
+    },
+    {
+        "image": "./assets/img4.jpg",
+        "title": "Terrace View",
+        "artist": "Meizhi Lang",
+        "description": "Wooden tables and chairs outside.",
+        "camera": "Sony ILCE-7M3",
+        "lens": "61",
+        "fstop": "7.1",
+        "iso": "100",
+        "shutter": "320",
+        "link": "https://unsplash.com/photos/a-row-of-wooden-tables-yW6UV9l2hR8"
+    },
+    {
+        "image": "./assets/img5.jpg",
+        "title": "Tree Frog",
+        "artist": "David Clode",
+        "description": "A wild white-lipped tree frog sitting on top of a leaf.",
+        "camera": "Canon EOS R7",
+        "lens": "500",
+        "fstop": "6.7",
+        "iso": "100",
+        "shutter": "500",
+        "link": "https://unsplash.com/photos/a-green-frog-sitting-on-top-of-a-leaf-yctzHRij4ZA"
+    }
+]
