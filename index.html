@@ -11,55 +11,55 @@
       <h1 class="text-3xl font-bold ">Gallery App</h1>
     </header>
     <main class="w-2/3 m-auto">
-      <section>
-          <img id="main-image">
+      <section class="mt-5">
+          <img class="rounded-lg" id="main-image">
       </section>
-      <section>
-          <div class="flex-row">
-              <button id="al">&#129120;</button>
-              <img id="th-image-1">
-              <img id="th-image-2">
-              <img id="th-image-3">
-              <button id="ar">&#129122;</button>
+      <section class="flex justify-center items-center">
+          <div class="flex flex-row justify-center items-center space-x-5 w-1/2 h-40 my-5">
+              <button class="w-10 h-10 rounded-full" id="al">&#129120;</button>
+              <img class="w-1/5 rounded-lg" id="th-image-1">
+              <img class="w-1/5 rounded-lg" id="th-image-2">
+              <img class="w-1/5 rounded-lg" id="th-image-3">
+              <button class="w-10 h-10 rounded-full" id="ar">&#129122;</button>
           </div>
       </section>
       <section>
           <div>
-              <h2 id="title"></h2>
+              <h2 class="font-bold text-2xl py-5" id="title"></h2>
               <p id="description"></p>
               <p id="artist"><i></i></p>
           </div>
           <div class="flex-col justify-center items-center">
-              <h2 class="font-bold text-2xl">Details</h2>
-              <table class="bg-blue-200 w-full border-collapse">
-                  <tr>
-                      <td>Camera</td>
-                      <td id="camera"></td>
+              <h2 class="font-bold text-2xl py-5">Details</h2>
+              <table class="table-auto bg-blue-200 w-full border-collapse rounded-lg">
+                  <tr class="border-b-2 border-white">
+                      <td class="p-2">Camera</td>
+                      <td class="p-2" id="camera"></td>
+                  </tr>
+                  <tr class="border-b-2 border-white">
+                      <td class="p-2">Lens</td>
+                      <td class="p-2" id="lens"></td>
+                  </tr>
+                  <tr class="border-b-2 border-white">
+                      <td class="p-2">F-stop</td>
+                      <td class="p-2" id="fstop"></td>
+                  </tr>
+                  <tr class="border-b-2 border-white">
+                      <td class="p-2">ISO</td>
+                      <td class="p-2" id="iso"></td>
                   </tr>
                   <tr>
-                      <td>Lens</td>
-                      <td id="lens"></td>
-                  </tr>
-                  <tr>
-                      <td>F-stop</td>
-                      <td id="fstop"></td>
-                  </tr>
-                  <tr>
-                      <td>ISO</td>
-                      <td id="iso"></td>
-                  </tr>
-                  <tr>
-                      <td>Shutter speed</td>
-                      <td id="shutter"></td>
+                      <td class="p-2">Shutter speed</td>
+                      <td class="p-2" id="shutter"></td>
                   </tr>
               </table>
-              <a id="link" href="#" target="_blank">Check the original post &#10063;</a>
+              <a class="block py-5 text-2xl font-semibold" id="link" href="#" target="_blank">Check the original post &#10063;</a>
           </div>
       </section>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="script.ts"></script>
     </main>
-    <footer class="flex justify-center items-center bg-white h-64">
+    <footer class="flex justify-center items-center bg-gray-100 h-64">
       Peter Kenesei (2024)
     </footer>
     <script type="module" src="/src/main.ts"></script>
