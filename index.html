@@ -1,37 +1,37 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery App by Peter Kenesei</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   </head>
-  <body class="bg-gray-100 font-helvetica">
-    <header class="bg-white h-20 flex justify-center items-center">
+  <body class="bg-gray-100 text-gray-800 font-helvetica">
+    <header class="bg-white h-20 flex justify-center items-center cursor-default">
       <h1 class="text-3xl font-bold ">Gallery App</h1>
     </header>
-    <main class="w-2/3 m-auto">
-      <section class="mt-5">
-          <img class="rounded-lg" id="main-image">
+    <main>
+      <section class="md:w-2/3 m-auto md:mt-5">
+          <img class="md:rounded-lg" id="main-image">
       </section>
-      <section class="flex justify-center items-center">
-          <div class="flex flex-row justify-center items-center space-x-5 w-1/2 h-40 my-5">
-              <button class="w-10 h-10 rounded-full" id="al">&#129120;</button>
-              <img class="w-1/5 rounded-lg" id="th-image-1">
-              <img class="w-1/5 rounded-lg" id="th-image-2">
-              <img class="w-1/5 rounded-lg" id="th-image-3">
-              <button class="w-10 h-10 rounded-full" id="ar">&#129122;</button>
+      <section class="w-4/5 m-auto flex justify-center items-center">
+          <div class="flex flex-row justify-center items-center sm:space-x-5 space-x-3 w-full py-5">
+              <button class="w-10 h-10 text-xl rounded-full hover:bg-blue-200 hover:text-white transition duration-300" id="al">&#129120;</button>
+              <img class="w-1/6 rounded-lg cursor-pointer" id="th-image-1">
+              <img class="w-1/6 rounded-lg cursor-pointer" id="th-image-2">
+              <img class="w-1/6 rounded-lg cursor-pointer" id="th-image-3">
+              <button class="w-10 h-10 text-xl rounded-full hover:bg-blue-200 hover:text-white transition duration-300" id="ar">&#129122;</button>
           </div>
       </section>
-      <section>
+      <section class="w-4/5 sm:w-2/3 m-auto cursor-default">
           <div>
-              <h2 class="font-bold text-2xl py-5" id="title"></h2>
+              <h2 class="font-bold text-2xl pt-3 pb-5" id="title"></h2>
               <p id="description"></p>
-              <p id="artist"><i></i></p>
+              <p class="pt-5 text-gray-700 italic" id="artist"><i></i></p>
           </div>
           <div class="flex-col justify-center items-center">
-              <h2 class="font-bold text-2xl py-5">Details</h2>
-              <table class="table-auto bg-blue-200 w-full border-collapse rounded-lg">
+              <h2 class="font-bold text-lg py-5">Details</h2>
+              <table class="table-auto bg-blue-200 w-full border-collapse rounded-lg cursor-default">
                   <tr class="border-b-2 border-white">
                       <td class="p-2">Camera</td>
                       <td class="p-2" id="camera"></td>
@@ -53,13 +53,13 @@
                       <td class="p-2" id="shutter"></td>
                   </tr>
               </table>
-              <a class="block py-5 text-2xl font-semibold" id="link" href="#" target="_blank">Check the original post &#10063;</a>
+              <a class="block py-5 text-2xl font-semibold" id="link" href="#" target="_blank">Go to the original post &#10063;</a>
           </div>
       </section>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
       <script src="script.ts"></script>
     </main>
-    <footer class="flex justify-center items-center bg-gray-100 h-64">
+    <footer class="flex justify-center items-center bg-white h-64 cursor-default">
       Peter Kenesei (2024)
     </footer>
     <script type="module" src="/src/main.ts"></script>
